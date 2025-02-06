@@ -1,0 +1,106 @@
+.background-color-site{
+    background-color: white;
+}
+
+.header-block{
+    height: 100px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+}
+.text-for-header-li{
+    font-family: 'Arial', 'Verdana', sans-serif, bold;
+    font-size: 17px;
+    font-weight: revert;
+    color: #6c7381;
+    margin-right: 25px;
+    cursor: pointer ;
+}
+
+.text-for-header-li:hover{
+    color: black;
+}
+.img-size{
+    width: 100px;
+    height: 100px;
+
+}
+.text-for-h{
+
+}
+.block-for-text-h1-header{
+    font-family: 'Arial', 'Verdana', sans-serif, 'Arial', Extrabold;
+    font-size: 30px;
+    font-weight: revert;
+    color: rgb(49, 112, 211);
+    margin-left: -100px;
+}
+.block-for-li{
+    width: 500px;
+    margin-right: 100px;
+}
+.block-text-h{
+    margin-top: 20px;
+    width: 485px;
+    height: 35px;
+}
+.heading-1{
+
+    font-family: 'Arial', 'Verdana', sans-serif, bold;
+    font-size: 35px;
+    font-weight: revert;
+    color: #4a4a4a;
+
+}
+.text-green{
+    color: rgb(113, 189, 17);
+}
+.main-block-text{
+
+    background-color: #d4c5f8;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+.lorem-text{
+    font-family: 'Arial', 'Verdana', sans-serif, bold;
+    font-size: 20px;
+    font-weight: revert;
+    color: #4a4a4a;
+}
+.block-for-lorem{
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 350px;
+    height: 200px;
+}
+.main-section-2{
+    margin-left: 50px;
+    margin-top: 150px;
+    font-family: 'Arial', 'Verdana', sans-serif, bold;
+    font-size: 35px;
+    font-weight: revert;
+    color: #4a4a4a;
+}
+.text-blue{
+    color: rgb(22, 103, 227);
+}
+.ml-50px{
+    margin-left: 50px;
+}
+.main-small-gray-text{
+    font-family: 'Arial', 'Verdana', sans-serif, bold;
+    font-size: 13px;
+    font-weight: revert;
+    color: #6c7381;
+
+    cursor: pointer ;
+}
+.color-text-black{
+    color: black;
+}
