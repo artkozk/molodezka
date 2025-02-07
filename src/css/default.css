@@ -88,7 +88,7 @@
 }
 .text-default{
     font-family: 'Arial', 'Verdana', sans-serif;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: revert;
     color: black;
 }
@@ -170,6 +170,16 @@ a:hover {
 .line-height-40px{
     line-height: 40px;
 }
-.text-align-right{
 
+.mt-0{
+    margin-top: 0;
+}
+.mt-10px{
+    margin-top: 10px;
+}
+a.text:active, /* активная/посещенная ссылка */
+a.text:hover,  /* при наведении */
+a.text {
+    text-decoration: none;
+    color: #000000;
 }
