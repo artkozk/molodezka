@@ -27,9 +27,7 @@
     height: 100px;
 
 }
-.text-for-h{
 
-}
 .block-for-text-h1-header{
     font-family: 'Arial', 'Verdana', sans-serif, 'Arial', Extrabold;
     font-size: 30px;
@@ -103,11 +101,17 @@
     font-weight: revert;
     color: black;
 }
-.mt-100px{
+.mt-70px{
     margin-top: 70px;
 }
 .mt-100px{
-    margin-top: 70px;
+    margin-top: 100px;
+}
+.ml-150px{
+    margin-left: 150px;
+}
+.mt-130px{
+    margin-top: 130px;
 }
 .header{
     width: 100%;
@@ -119,7 +123,7 @@
     font-weight: revert;
     color: black;
     margin-top: 20px;
-    margin-left: 30px;
+
 
 }
 .text-for-header{
@@ -137,7 +141,7 @@
     width: 150px;
     height: 100%;
     margin-left: 30px;
-    padding-top: 100px;
+
 
 
 }
@@ -206,4 +210,39 @@
 }
 .active-gray{
     background-color: #f5f5f5;
+}
+section{
+    position: fixed;
+}
+.second-block{
+    width: 900px;
+    height: 450px;
+    margin-top: 100px;
+}
+.second-block-text-block{
+    width: 400px;
+    margin-right: 50px;
+
+}
+.second-block-text-block-mini-text{
+    width: 285px;
+}
+.second-block-img-block{
+    width: 450px;
+    border-radius: 5px;
+}
+.text-for-h{
+    font-family: sans-serif, bolder;
+    font-size: 28px;
+    color: black;
+    font-weight: revert;
+    line-height: 30px;
+    text-align: center;
+
+}
+.main-block{
+    width: 900px;
+}
+.text-align-revert{
+    text-align: revert;
 }
