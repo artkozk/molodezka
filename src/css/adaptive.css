@@ -23,6 +23,19 @@
     .adaptive-none{
         display: flex;
     }
+    .mt-minus{
+        margin-top: 0;
+
+    }
+
+
+    .img-block {
+        cursor: pointer;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #000;
+        display: inline-block;
+    }
     .mt-150px{
         margin-top: 150px;
     }
@@ -65,8 +78,12 @@
         margin-top: 20px;
 
     }
+
+
+
     .mt-180px{
         margin-top: 180px;
+        transition: all .4s ease;
     }
     .second-block-text-block{
         width: 300px;

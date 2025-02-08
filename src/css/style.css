@@ -21,7 +21,9 @@
     margin-right: 25px;
     cursor: pointer ;
 }
+.block-blur{
 
+}
 .text-for-header-li:hover{
     color: black;
 }
@@ -262,6 +264,10 @@ section{
     font-weight: revert;
     line-height: 40px;
     text-align: center;
+
+}
+.mt-minus{
+    margin-top: -100px;
 
 }
 .main-block{
