@@ -1,9 +1,15 @@
 @media (min-width: 1136px) {
-
-
+    .section{
+        display: inline;
+    }
 }
 @media (max-width: 590px) {
-
+    .main-block{
+        width: 320px;
+    }
+    .first-img{
+        width: 80%;
+    }
 }
 @media (max-width:1136px ) {
 

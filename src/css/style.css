@@ -1,3 +1,6 @@
+.section{
+    display: none;
+}
 .background-color-site{
     background-color: white;
 }
@@ -186,7 +189,7 @@
     margin-top: 40px;
 }
 .text-def{
-    margin-top: 35px;
+
     font-family: sans-serif, bold;
     font-size: 17px;
     color: black;
@@ -203,7 +206,7 @@
     height: 60px;
 }
 .first-img{
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 8px;
     width: 900px;
     height: 520px;
@@ -237,7 +240,7 @@ section{
     font-size: 30px;
     color: black;
     font-weight: revert;
-    line-height: 60px;
+    line-height: 40px;
     text-align: center;
 
 }
