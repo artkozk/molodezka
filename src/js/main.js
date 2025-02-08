@@ -24,5 +24,29 @@ function setBackElement() {
     }
 }
 
+function activeBackground () {
+    const sectionIds = ["about", "info", "news"];
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            const linkId = entry.target.id + "-link";
+            const link = document.getElementById(linkId);
+            if (link) {
+                if (entry.isIntersecting) {
+                    link.classList.add("active-gray");
+                } else {
+                    link.classList.remove("active-gray");
+                }
+            }
+        });
+    });
+
+    sectionIds.forEach(id => {
+        const section = document.getElementById(id);
+        if (section) observer.observe(section);
+    });
+}
+
+
 window.addEventListener("load", setBackElement);
 window.addEventListener("hashchange", setBackElement);
+document.addEventListener("DOMContentLoaded", activeBackground);
